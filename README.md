@@ -18,11 +18,11 @@ This project is driven by the vision to harness the capabilities of JavaScript a
 
 ## **HTML Structure**
 
-* <div class="container">: Acts as the main container for the to-do list application, wrapping everything in a visually appealing background.
-* <div class="todo-app">: Encloses the to-do list's title, input area, and list itself, providing a centered, stylized container for the app components.
-* <h2>To-Do List</h2>: The title for the application.
-* Input Row (<div class='row'>): Contains the text input field and the Add button. Users can type their task here and add it to the list.
-* <ul id="list-container">: The unordered list where tasks will be displayed as list items (<li>).
+* `<div class="container">`: Acts as the main container for the to-do list application, wrapping everything in a visually appealing background.
+* `<div class="todo-app">`: Encloses the to-do list's title, input area, and list itself, providing a centered, stylized container for the app components.
+* `<h2>To-Do List</h2>`: The title for the application.
+* Input Row `(<div class='row'>)`: Contains the text input field and the Add button. Users can type their task here and add it to the list.
+* `<ul id="list-container">`: The unordered list where tasks will be displayed as list items `(<li>)`.
   
 ## **CSS Styling**
 
@@ -32,28 +32,28 @@ Key styling includes:
 *	The application is centered on the page with a maximum width, border-radius, margin and padding for aesthetics.
 *	Input fields and buttons are styled for a seamless interface.
 *	The .container and .todo-app are styled to center the content and apply specific background colors and paddings.
-*	Tasks (<li> elements) have distinctive styles, with completed tasks being visually different to provide clear feedback on their status.
-*	Tasks (<li> elements) and other components like the input box and buttons have specific styles for appearance, hover effects, and when a task is marked as completed.
+*	Tasks `(<li> elements)` have distinctive styles, with completed tasks being visually different to provide clear feedback on their status.
+*	Tasks `(<li> elements)` and other components like the input box and buttons have specific styles for appearance, hover effects, and when a task is marked as completed.
 
 ## **JavaScript Functionality**
 
 The JavaScript adds dynamic behavior to the to-do list, covering task addition, completion marking, and deletion.
-Adding Tasks (addTask):
+Adding Tasks `(addTask)`:
 Checks if the input field (inputBox) is empty. If not, it proceeds; otherwise, it alerts the user to write something.
-Creates a new list item (<li>) and sets its content to the value entered in the input field.
-Appends a close button (<span>) to each task for the removal functionality, with a click event listener that hides the task on click.
+Creates a new list item `(<li>)` and sets its content to the value entered in the input field.
+Appends a close button `(<span>)` to each task for the removal functionality, with a click event listener that hides the task on click.
 Clears the input field after adding the task to the list.
 Marking Tasks as Completed:
 Utilizes event delegation by adding a click event listener to the list container (inputBox). When a task is clicked, the 'checked' class is toggled on the task, changing its appearance to indicate completion.
 Removing Tasks:
-The close button (<span> with '×') added to each task allows users to remove tasks from the list.
+The close button `(<span> with '×')` added to each task allows users to remove tasks from the list.
 Initially set up in the add function and further facilitated through a click event listener that sets the task's display style to "none", effectively hiding it.
 
 # **USAGE**
 
-Adding a Task: Users enter a task in the input field and click "Add" to add it to the list.
-Marking a Task as Completed: Users click on a task to toggle its "completed" status.
-Removing a Task: Users click the "×" button on a task to remove it from the list.
++ Adding a Task: Users enter a task in the input field and click "Add" to add it to the list.
++ Marking a Task as Completed: Users click on a task to toggle its "completed" status.
++ Removing a Task: Users click the "×" button on a task to remove it from the list.
 
 
 # **CONCLUSION**
