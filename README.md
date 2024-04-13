@@ -54,7 +54,7 @@ Removing a Task: Users click the "×" button on a task to remove it from the lis
 # **CONCLUSION**
 In conclusion, the development of our to-do list project has been a rewarding journey that has showcased the power and versatility of HTML, CSS, and JavaScript in creating dynamic web applications. Our primary objective was to design a user-friendly and functional to-do list that empowers users to manage their tasks efficiently. Through meticulous planning and collaboration, we successfully implemented key features such as task addition and deletion. The seamless integration of HTML for structure, CSS for styling, and JavaScript for interactivity has resulted in a polished and intuitive user interface.
 
-**# OUTPUT**
+# **OUTPUT**
 ![image](https://github.com/srimahithasandiri/To-DO-LIST-using-Html-CSS-javascript/assets/166735932/b8e4a291-3779-40fa-908b-e9bdea83dd87)
 
 ![image](https://github.com/srimahithasandiri/To-DO-LIST-using-Html-CSS-javascript/assets/166735932/c461c73f-7df4-4f10-afe6-fad7bee86cbf)
