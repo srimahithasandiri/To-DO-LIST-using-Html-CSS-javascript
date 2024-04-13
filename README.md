@@ -1,4 +1,4 @@
-# `249°, 77%, 27%`  To-DO-LIST-using-Html-CSS-javascript
+#  	`hsl(212, 92%, 45%)`To-DO-LIST-using-Html-CSS-javascript
 # **INTRODUCTION:**
 
 In the realm of personal productivity and organizational tools, the to-do list occupies a central role, universally recognized for its simplicity and effectiveness in managing tasks and priorities. The evolution from paper-based lists to digital platforms has significantly expanded the functionality and accessibility of to-do lists.
@@ -33,12 +33,12 @@ Key styling includes:
 *	Input fields and buttons are styled for a seamless interface.
 *	The .container and .todo-app are styled to center the content and apply specific background colors and paddings.
 *	Tasks `(<li> elements)` have distinctive styles, with completed tasks being visually different to provide clear feedback on their status.
-*	Tasks `(<li> elements)` and other components like the input box and buttons have specific styles for appearance, hover effects, and when a task is marked as completed.
+* Tasks `(<li> elements)` and other components like the input box and buttons have specific styles for appearance, hover effects, and when a task is marked as completed.
 
 ## **JavaScript Functionality**
 The JavaScript adds dynamic behavior to the to-do list, covering task addition, completion marking, and deletion.
 
-#### * Adding Tasks `(addTask)`:
+* ####  Adding Tasks `(addTask)`:
 
 Checks if the input field `(inputBox)` is empty. If not, it proceeds; otherwise, it alerts the user to write something.
 
@@ -48,11 +48,11 @@ Appends a close button `(<span>)` to each task for the removal functionality, wi
 
 Clears the input field after adding the task to the list.
 
-#### * Marking Tasks as Completed:
+* #### Marking Tasks as Completed:
 
 Utilizes event delegation by adding a click event listener to the list container (inputBox). When a task is clicked, the 'checked' class is toggled on the task, changing its appearance to indicate completion.
 
-#### * Removing Tasks:
+* ####  Removing Tasks:
 
 The close button `(<span> with '×')` added to each task allows users to remove tasks from the list.
 
@@ -61,13 +61,13 @@ Initially set up in the add function and further facilitated through a click eve
 
 # **USAGE:**
 
-#### * Adding a Task: 
+* ####  Adding a Task: 
 Users enter a task in the input field and click "Add" to add it to the list.
 
-#### * Marking a Task as Completed: 
+* ####  Marking a Task as Completed: 
 Users click on a task to toggle its "completed" status.
 
-####  * Removing a Task:
+* ####   Removing a Task:
 Users click the "×" button on a task to remove it from the list.
 
 
