@@ -1,4 +1,4 @@
-#  To-DO-LIST-using-Html-CSS-javascript
+#   To-DO-LIST-using-Html-CSS-javascript                                                          
 # **INTRODUCTION:**
 
 In the realm of personal productivity and organizational tools, the to-do list occupies a central role, universally recognized for its simplicity and effectiveness in managing tasks and priorities. The evolution from paper-based lists to digital platforms has significantly expanded the functionality and accessibility of to-do lists.
@@ -35,7 +35,7 @@ Key styling includes:
 *	Tasks `(<li> elements)` have distinctive styles, with completed tasks being visually different to provide clear feedback on their status.
 * Tasks `(<li> elements)` and other components like the input box and buttons have specific styles for appearance, hover effects, and when a task is marked as completed.
 
-## **JavaScript Functionality**
+## **JavaScript Functionality:**
 The JavaScript adds dynamic behavior to the to-do list, covering task addition, completion marking, and deletion.
 
 ####  Adding Tasks `(addTask)`:
