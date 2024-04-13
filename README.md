@@ -38,15 +38,15 @@ Key styling includes:
 ## **JavaScript Functionality**
 The JavaScript adds dynamic behavior to the to-do list, covering task addition, completion marking, and deletion.
 
- ####  Adding Tasks `(addTask)`:
+####  Adding Tasks `(addTask)`:
 
-  Checks if the input field (inputBox) is empty. If not, it proceeds; otherwise, it alerts the user to write something.
+Checks if the input field `(inputBox)` is empty. If not, it proceeds; otherwise, it alerts the user to write something.
   
-  Creates a new list item (<li>) and sets its content to the value entered in the input field.
+Creates a new list item `(<li>)` and sets its content to the value entered in the input field.
   
-  Appends a close button (<span>) to each task for the removal functionality, with a click event listener that hides the task on click.
+Appends a close button `(<span>)` to each task for the removal functionality, with a click event listener that hides the task on click.
   
-  Clears the input field after adding the task to the list.
+Clears the input field after adding the task to the list.
 
 #### Marking Tasks as Completed:
 
@@ -61,13 +61,13 @@ Initially set up in the add function and further facilitated through a click eve
 # **USAGE:**
 
 * ####  Adding a Task: 
-        Users enter a task in the input field and click "Add" to add it to the list.
+  Users enter a task in the input field and click "Add" to add it to the list.
 
 * ####  Marking a Task as Completed: 
-        Users click on a task to toggle its "completed" status.
+  Users click on a task to toggle its "completed" status.
 
 * ####   Removing a Task:
-         Users click the "×" button on a task to remove it from the list.
+  Users click the "×" button on a task to remove it from the list.
 
 
 # **CONCLUSION:**
