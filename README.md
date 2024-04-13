@@ -38,25 +38,24 @@ Key styling includes:
 ## **JavaScript Functionality**
 The JavaScript adds dynamic behavior to the to-do list, covering task addition, completion marking, and deletion.
 
-* ####  Adding Tasks `(addTask)`:
+ ####  Adding Tasks `(addTask)`:
 
-        Checks if the input field `(inputBox)` is empty. If not, it proceeds; otherwise, it alerts the user to write something.
+  Checks if the input field (inputBox) is empty. If not, it proceeds; otherwise, it alerts the user to write something.
+  
+  Creates a new list item (<li>) and sets its content to the value entered in the input field.
+  
+  Appends a close button (<span>) to each task for the removal functionality, with a click event listener that hides the task on click.
+  
+  Clears the input field after adding the task to the list.
 
-        Creates a new list item `(<li>)` and sets its content to the value entered in the input field.
+#### Marking Tasks as Completed:
 
-        Appends a close button `(<span>)` to each task for the removal functionality, with a click event listener that hides the task on click.
+Utilizes event delegation by adding a click event listener to the list container (inputBox). When a task is clicked, the 'checked' class is toggled on the task, changing its appearance to indicate completion.
+####  Removing Tasks:
 
-        Clears the input field after adding the task to the list.
+The close button `(<span> with '×')` added to each task allows users to remove tasks from the list.
 
-* #### Marking Tasks as Completed:
-
-       Utilizes event delegation by adding a click event listener to the list container (inputBox). When a task is clicked, the 'checked' class is toggled on the task, changing its appearance to indicate completion.
-
-* ####  Removing Tasks:
-
-        The close button `(<span> with '×')` added to each task allows users to remove tasks from the list.
-
-        Initially set up in the add function and further facilitated through a click event listener that sets the task's display style to "none", effectively hiding it.
+Initially set up in the add function and further facilitated through a click event listener that sets the task's display style to "none", effectively hiding it.
 
 
 # **USAGE:**
